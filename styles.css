@@ -2,6 +2,10 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 
+body {
+    background-color: rgb(230, 230, 230);
+}
+
 main {
     position: absolute;
     top: 50%;
@@ -13,6 +17,6 @@ main {
 main img {
     display: block;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 25%;
     padding-bottom: 20px;
 }
