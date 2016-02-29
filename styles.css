@@ -16,6 +16,7 @@ main img {
     border-radius: 25%;
     border: 2px solid #6A6A6A;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 768px) {
