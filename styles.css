@@ -40,12 +40,6 @@ main img {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 650px;
-  }
-}
-
 .links {
     font-weight: bold;
 }
@@ -63,3 +57,11 @@ main img {
     background-color: rgb(195, 195, 195); }
   50% {
     background-color: rgb(190, 190, 190); } }
+
+/* iPhone (portrait & landscape) */
+@media only screen and (max-device-width: 480px) {
+    main {
+        width: 370px;
+        margin: -210px 0 0 -185px;
+    }
+}
