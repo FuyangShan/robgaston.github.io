@@ -28,7 +28,7 @@ main {
     left: 50%;
     text-align: center;
     width: 450px;
-    margin: -210px 0 0 -200px;
+    margin: -210px 0 0 -225px;
 }
 
 main img {
@@ -38,12 +38,6 @@ main img {
     border: 2px solid #6A6A6A;
     margin-bottom: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 650px;
-  }
 }
 
 .links {
@@ -63,3 +57,11 @@ main img {
     background-color: rgb(195, 195, 195); }
   50% {
     background-color: rgb(190, 190, 190); } }
+
+/* iPhone (portrait & landscape) */
+@media only screen and (max-device-width: 480px) {
+    main {
+        width: 300px;
+        margin: -210px 0 0 -150px;
+    }
+}
