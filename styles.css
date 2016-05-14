@@ -46,13 +46,13 @@ main img {
 
 @keyframes changecolor {
   from, to {
-    background-color: rgb(255, 251, 242); }
+    background-color: rgb(255, 248, 232); }
   10%, 90% {
-    background-color: rgb(254, 249, 240); }
+    background-color: rgb(255, 249, 236); }
   20%, 80% {
-    background-color: rgb(251, 248, 241); }
+    background-color: rgb(255, 250, 241); }
   30%, 70% {
-    background-color: rgb(255, 254, 250); }
+    background-color: rgb(255, 252, 245); }
   40%, 60% {
     background-color: rgb(255, 253, 250); }
   50% {
