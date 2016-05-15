@@ -58,7 +58,6 @@ main img {
   50% {
     background-color: rgb(255, 255, 255); } }
 
-/* iPhone (portrait & landscape) */
 @media only screen and (max-device-width: 480px) {
     main {
         width: 300px;
